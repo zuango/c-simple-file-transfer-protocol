@@ -1,0 +1,64 @@
+
+# --------------------------
+# Build artifacts
+# --------------------------
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# --------------------------
+# Executables
+# --------------------------
+server
+client
+*.exe
+*.out
+
+# --------------------------
+# Editor / IDE files
+# --------------------------
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.clangd/
+compile_commands.json
+
+# --------------------------
+# OS junk files
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Logs / temp files
+# --------------------------
+*.log
+*.tmp
+*.bak
+
+# --------------------------
+# Received files (optional)
+# comment out if you want them tracked
+# --------------------------
+# *.zip
+# *.pdf
+# *.jpg
+# *.png
+# *.bin
+# *.txt
+
+# --------------------------
+# CMake or other build system outputs (just in case)
+# --------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.in
+Makefile.old
+
