@@ -13,8 +13,6 @@ build/
 # --------------------------
 # Executables
 # --------------------------
-server
-client
 *.exe
 *.out
 
